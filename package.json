@@ -1,0 +1,23 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Simple password generator",
+  "main": "index.js",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Sergii Soroka <s.sergiy86@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "clipboardy": "^3.0.0",
+    "commander": "^8.3.0"
+  }
+}
